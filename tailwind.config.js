@@ -14,6 +14,10 @@ export default {
       fontFamily:{
         alata: ["Alata", "sans-serif"],
         josefin:["Josefin Sans", "sans-serif"]
+      },
+      backgroundImage:{
+        'hero':
+        "url('assets/images/mobile/image-hero.jpg')"
       }
     },
   },
