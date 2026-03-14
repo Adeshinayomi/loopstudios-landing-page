@@ -2,7 +2,7 @@ import interactive from '../assets/images/mobile/image-interactive.jpg'
 import interactiveDesktop from '../assets/images/desktop/image-interactive.jpg'
 export function About(){
     return(
-        <section className='w-[90%] mx-auto mt-10 md:mt-16 grid gap-10 md:grid-cols-2 md:place-items-end'>
+        <section className='w-[90%] mx-auto mt-10 md:mt-40 grid gap-10 md:grid-cols-2 md:place-items-end'>
             <div className='relative'>
                 <img src={interactive} alt="interactive-image-mobile" className='md:hidden'/>
                 <img src={interactiveDesktop} alt="interactive-image-desktop" className='hidden md:flex'/>
